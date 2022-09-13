@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+    text-decoration: none;
+}
+.btn{
+    width: 197px;
+    height: 48px;
+    background-color:#cfc91d;
+    text-decoration: none;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    text-transform: uppercase;
+    letter-spacing:5px;
+    border: none;
+    
+}
+.heading{
+    
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.heading::after{
+    content: '';
+    width: 162px;
+    height: 9px;
+    background-image: url(../img/about.png);
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform : translateX(-50%);
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aling-center{
+    align-items:center;
+}
+
+ul,ol {
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* navber start heres*/
+nav{
+    background-color:#02918c;
+    color: white;
+    
+}
+
+nav .logo {
+    width: 30%;
+}
+nav .menu{
+    width: 70%;
+   
+}
+nav .menu ul{
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+.icon
+{
+    font-size: 25px;
+    color: #02918c;
+}
+nav .menu ul li a{
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 25px 25px;
+    display: inline-block;
+    transition: 300ms;
+    border-radius: 15px;
+    
+}
+nav .menu ul li a:hover{
+    color: black;
+    padding: 15px 25px;
+
+}
+
+/*navber ends heres*/
+/*banner start heres*/
+#banner{
+    background-image:url(../img/project-1\(A\)-MYFOLIO.jpg);
+    background-color: rgb(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    height: 725px;
+    background-size: cover;
+    background-position:center;
+}
+
+#banner .bnc{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+#banner .bnc h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+#banner .bnc h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#banner .bnc p{
+    font-weight: 400;
+    font-size: 18px;
+}
+#banner .bnc img{
+    
+    margin: 50px 0px;
+}
+
+
+.btn:hover{
+    color: azure;
+}
+#banner .row{
+    height: 725px;
+}
+#banner .btn{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*banner ends heres*/
+
+/*about start heres*/
+#about {
+    padding: 98px 0px 98px 0px;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+}
+
+
+/*#about .heading{
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}*/
+
+
+#about .text {
+    width: 875px;
+    font-size: 16px;
+    color:#7e8287;
+    margin: 78px auto 78px auto;
+    text-align: center;
+
+}
+#about .text span{
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+    
+}
+
+#about .aboutcard{
+    width:25%;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    line-height: 2;
+}
+#about .aboutcard:last-child{
+    border: none;
+}
+
+
+.subhading{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 29px;
+}
+
+.cardcontenir{
+    color: #7e8287;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 0 50px;
+}
+
+/*about ends heres*/
+/*service start heres*/
+#service{
+    padding: 73px 0;
+    background-image: url(../img/project-1\(c\)-MYFOLIO.jpg) ;
+    background-size: cover;
+    background-position: center;
+    padding-left: 80px;
+}
+
+.service-left{
+    width: 50%;
+}
+#service .heading{
+    text-align: left;
+    margin-bottom: 50px;
+}
+#service .heading::after{
+    left: 0;
+    transform: translateX(0);
+}
+
+/*#service p {
+    color: #7e8287;
+
+}
+
+#service .heading{
+    padding:0 0 43px 0;
+    text-align: left;
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform:uppercase ;
+}*/
+#service .text{
+    width: 500px;
+    color: #7e8287;
+    margin: 31px 0 59px 0;
+    font-size: 16px;
+    font-weight: 400;
+    
+    
+   
+}
+ .serviccard{
+    width:50%; 
+    margin-bottom: 40px; 
+    
+}
+.serviccard p {
+    width: 263px;
+    text-align: left;
+    padding: 0;
+    padding-right: 80px;
+}
+.text{
+    margin: 60px 0;
+}
+#service .subhading{
+margin-left: 0;
+margin-right: 0;
+}
+/*service ends heres*/
+/*work start heres*/
+#work {
+    padding: 71px 0 78px 0;
+    color: #02918c;
+    text-align: center;
+    
+
+}
+
+
+/*.hading{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#work p {
+    color: #7e8287;
+    margin-top: 34px;
+}*/
+#work .heading{
+    text-align: center;
+    margin-bottom: 71px;
+}
+#work .text{
+   width: 675px;
+   text-align: center;
+   margin: auto;
+   padding: 0 0 78px;
+   color: #878a8f;
+
+   
+    
+
+
+}
+/*.text{
+    width: 680px;
+    margin: auto;
+    line-height: 2;
+    padding: 0 0 78px;
+}*/
+.workcrad{
+    width: 25%;
+    height: 238px; 
+    position: relative; 
+}
+.workcrad img{
+    width: 100%;
+    display: block; 
+}
+
+/*work ends heres*/
+/*overcard sterd here*/
+#work .workcrad .overcrad{
+    position: absolute;
+    inset: 20px;
+    background-color: rgba(2, 145, 140 , 0.85);
+    color:white;
+    text-align: center;
+    padding: 38px;
+    transform:scale(0);
+    transition: 0.8s;
+    /*opacity: 0;
+    visibility:hidden;*/
+ 
+}
+#work .workcrad:hover .overcrad{
+    /*opacity: 1;
+    visibility: visible;*/
+    transform:scale(1) ;
+}
+
+#work .overcrad p{
+    color: white;
+}
+.overcrad .row{
+    height: 100%;
+}
+
+/*overcard ends here*/
+
+/*contact start here*/
+
+#contact.heading{
+    text-align: center;
+ }
+
+#contact .text{
+    width: 678px;
+    text-align:center ;
+    margin: 70px auto;
+    color: #878a8f;   
+}
+
+/*
+#contact p{
+    margin: 30px 0 28px 0;
+    color: #898c91;
+}
+*/
+
+/*contact ends here*/
+
+/*footer start here*/
+#contactform{
+    padding: 70px 0 0 0;
+    background-color: #0b0b0b;
+    
+
+    
+}
+#contactform .input-form{
+       width: 640px;
+       margin:auto;
+       
+        
+}
+
+#contactform .input-form input{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin: 0 0 60px 0;
+    
+}
+#contactform .input-text{
+    width: 915px;
+    margin: auto;
+    color: white;
+    line-height: 3;
+    
+}
+#contactform .input-text label{
+    display: block;
+    text-align: center;
+    
+}
+#contactform .input-text textarea{
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  
+}
+#btn{
+    padding: 66px 0  ;
+    
+}
+
+#mf{
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #000000;
+    
+}
+.MF{
+    padding: 35px 0px 27px 0px;
+    margin:0 0;
+    display: inline-block;
+    color: white;
+}
+
+
+/*footer ends here*/
